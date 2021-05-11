@@ -20,8 +20,8 @@ def main():
     access_token = 'mYb4DjJREr8AAAAAAAAAAeLkoenOiu2UpELvfplagMoUx-7qMJqUCp_S7s0tyYi6'
     transferdata = TransferData(access_token)
 
-    file_from = 'C:/Users/csank/Desktop/python/test1'
-    file_to = '/python/101'
+    file_from = 'C:/Users/arnav/Documents/python/test1.txt'
+    file_to = '/python/101.txt'
     transferdata.upload_folder(file_from,file_to)
     print("Files uploaded successfully!")
 
